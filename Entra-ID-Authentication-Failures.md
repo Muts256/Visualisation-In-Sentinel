@@ -1,19 +1,30 @@
+### Introduction
+
+These Entra ID authentication failure maps and visualizations provide a geographic and analytical view of failed sign-in activity, helping to identify suspicious access patterns such as anomalous locations, brute-force attempts, and credential abuse. By visualizing authentication failures across regions and time, security teams can quickly detect abnormal behavior, prioritize investigations, and strengthen identity protection strategies.
+
+### Setup
+
+Log into the Azure Portal
+Go to Sentinel → Threat Management → Workbooks → Add a Workbook
+Remove the default placeholders by clicking on the dots at the bottom right-hand corner and select remove
+
+![image alt](https://github.com/Muts256/SNC-Public/blob/c092832b5026a13fbd916681555724299bca7c94/Images/Visual/Vi1.png)
 
 
+Click on Add
+
+![image alt](https://github.com/Muts256/SNC-Public/blob/c092832b5026a13fbd916681555724299bca7c94/Images/Visual/Vi3.png)
 
 
+Then click on add query
 
+![image alt](https://github.com/Muts256/SNC-Public/blob/c092832b5026a13fbd916681555724299bca7c94/Images/Visual/Vi4.png)
 
+Click on Advanced Editor
 
+![image alt](https://github.com/Muts256/SNC-Public/blob/c092832b5026a13fbd916681555724299bca7c94/Images/Visual/Vi5.png)
 
-
-
-
-
-
-
-
-
+Navigate to GitHub and copy Jason script
 
 
 ```
@@ -49,7 +60,6 @@
   },
   "name": "query - 2"
 }
-
 ```
 ### Map Visual
 
