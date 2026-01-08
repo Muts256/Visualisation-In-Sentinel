@@ -84,3 +84,5 @@ AzureActivityRecords
           friendly_label = strcat(split(Caller, "@")[0], " - ", cityname, ", ", countryname)
 
 ```
+
+![image alt](Vi15)
